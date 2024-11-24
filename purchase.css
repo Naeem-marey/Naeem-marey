@@ -39,7 +39,7 @@ label {
 }
 
 input {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ddd;
@@ -60,4 +60,8 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+.submit-button {
+    margin-top: 2%;
 }
