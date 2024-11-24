@@ -10,6 +10,8 @@
 
 <body>
 
+
+<form action="./index.html" method="post">
     <div class="container">
         <h1>Payment Details</h1>
 
@@ -35,7 +37,7 @@
 
         <div class="payment-method">
             <h2>Payment Method</h2>
-            <form action="/submit-payment" method="POST">
+            <form action="./index.html" method="POST">
                 <label for="card-number">Credit Card Number</label>
                 <input type="text" id="card-number" name="card-number" placeholder="XXXX XXXX XXXX XXXX" required>
 
@@ -47,15 +49,18 @@
 
                 <label for="billing-address">Billing Address</label>
                 <input type="text" id="billing-address" name="billing-address" required>
-            </form>
-        </div>
 
-        <div class="submit-button">
-            <form action="./index.html">
-                <button type="submit">Complete Purchase</button>
+
+
+                <div class="submit-button">
+
+                    <button type="submit">Complete Purchase</button>
+
+                </div>
             </form>
         </div>
     </div>
+</form>
 
 </body>
 
