@@ -110,3 +110,7 @@ h3 {
     color: gray;
     border-bottom: 1px solid gray;
 }
+
+.textcolor {
+    color: rgb(67, 1, 1);
+}
